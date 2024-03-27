@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  /* Adjust the max-width as needed */
+  margin: 0 auto;
+}
+
+tr {
+  border-radius: 10px;
+  align-content: space-between;
+  margin-bottom: 10px;
+  /* Add some space between rows */
+  /* Add a background color for better readability */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  min-height: 20px;
+  height: auto;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+td {
+  width: 150px;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.ico {
+  min-height: 59px;
+}
+
+.hidden {
+  display: none;
+}
+
+tbody {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgb(194, 194, 194);
+}
+
+table tr > * {
+  display: block;
+}
+
+table tr {
+  display: table-cell;
+}
+
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+
+th:last-of-type {
+  border-bottom-left-radius: 10px;
+}
+
+tr:last-of-type td:first-of-type {
+  border-top-right-radius: 10px;
+}
+
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Estilos para el contenedor del select */
+.label-container {
+  margin-bottom: 20px;
+}
+
+/* Estilos para la etiqueta */
+label {
+  font-weight: bold;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos para el select */
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+/* Estilos para cambiar la apariencia en el foco */
+select:focus {
+  border-color: #7c7c7c;
+  box-shadow: 0 0 5px rgba(143, 143, 143, 0.5);
+}
+
+option:hover {
+  background-color: #333;
+}
+
+.opcions {
+  padding-top: 20px;
+}/*# sourceMappingURL=styles.css.map */
