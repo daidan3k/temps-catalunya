@@ -1,5 +1,5 @@
 <b>VERSIO LIVE:</b> <br>
-https://daidan3k.github.io/index.html
+https://daidan3k.github.io/previsio-temps-catalunya/
 <br>
 
 Previsió del temps de totes les comarques de catalunya, utilitzant dades de datos.gob.es
